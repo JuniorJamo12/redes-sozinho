@@ -1,0 +1,62 @@
+@charset "UTF-8" ; 
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section#telefone{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+    background-color: blue;
+    width: 360px;
+    height: 650px;
+    background: url(imagens/frame-iphone.png) no-repeat;
+
+}
+
+
+iframe#tela{
+
+    position: absolute;
+    top: 74px;
+    left: 4px;
+
+    height: 477px;
+    width: 285px ;
+}
+
+
+iframe#tela ::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+ a > img{
+    width: 80px;
+    border-radius: 40%;
+    
+}
+
+
+main{
+    text-align: right;
+}
+
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
+iframe#tela> a{
+    font-size: 28px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.427);
+}
